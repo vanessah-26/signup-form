@@ -1,0 +1,142 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Varela Round", sans-serif;
+    background-color: #151630;
+}
+
+.form {
+    background-image: linear-gradient(#89af30, #770eee);
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 16px;
+    padding: 120px 50px;
+    box-shadow: 2px 2px 8px #0000ab;
+}
+
+.img-overlay::before {
+    content: '';
+    background-image: url("https://media.istockphoto.com/id/666570488/photo/sporting-women-practicing-fencing-sport-women-in-sport-young-woman-fencer-standing-in-fencing.jpg?s=612x612&w=0&k=20&c=8in6YwZOTYmQPyj9mfnjRy0ukcY8zjHzW9zlhxNu9cI=");
+    position: absolute;
+    left:0;
+    top:0;
+    opacity: 0.18;
+    width: 400px;
+    height: 600px;
+    border-radius: 16px;
+    z-index: -1;
+}
+
+.icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.form h1{
+    color: white;
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    border-bottom: 1px solid rgba(231, 231, 231, 0.9);
+}
+
+.input:hover {
+    border-bottom: 3px solid #fff;
+    transition: 0.2s ease-in-out;
+}
+
+
+#email,
+#email::placeholder{
+    width: 100%;
+    border: none;
+    background:none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.5rem;
+    font-size: 0.9;
+    padding-bottom: 0.7;
+}
+
+#password,
+#password::placeholder{
+    width: 100%;
+    border: none;
+    background:none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.5rem;
+    font-size: 0.9;
+    padding-bottom: 0.7;
+}
+
+#password2,
+#password2::placeholder{
+    width: 100%;
+    border: none;
+    background:none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.5rem;
+    font-size: 0.9;
+    padding-bottom: 0.7;
+}
+
+.button {
+    width: 100%;
+    background: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size:0.9;
+    margin-bottom: 1.5rem;
+    font-weight: 250;
+    text-transform: uppercase;
+    color: #053edb;
+    outline: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    width: 100%;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size:0.9;
+    margin-bottom: 1.5rem;
+    font-weight: 250;
+    text-transform: uppercase;
+    color: #fff;
+    outline: none;
+    transition: 0.5 ease-in-out;
+    cursor: pointer;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    
+}
+
